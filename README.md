@@ -4,7 +4,7 @@
   
   ## Process
   Upload your pdf -> Ingest and store data into vectorstore by chunking and Embeddings -> Ask question to chatbot 
-  -> question transformed into embeddings -> Semantic search from vectorstore -> Return high rank results 
+  -> question transformed into embeddings -> Semantic search using FAISS from vectorstore -> Return high rank results 
   
   ## Framework used
   * [Langchain](https://python.langchain.com/en/latest/index.html)
